@@ -1,6 +1,9 @@
 FROM python:3.6.5
 ARG DJANGO_ENV
 
+ADD ldap3_authentication.py /app/ldap3_authentication.py
+
+# Asignamos el directorio de trabajo
 WORKDIR /app/
 
 # Install Python requirements.
@@ -11,4 +14,3 @@ RUN pip install --upgrade pip; \
 RUN adduser --disabled-password --gecos '' app
 
 ENV HOME /home/app
-
