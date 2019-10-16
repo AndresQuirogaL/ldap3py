@@ -27,5 +27,5 @@ password=password
 correr script:
 
 ~~~
-$ python ldap3_authentication.py servername=servername user=user password=password
+$ python ldap3_authentication.py servername=servername user=Domain\\\User password=password
 ~~~
