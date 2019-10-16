@@ -18,9 +18,11 @@ https://ldap3.readthedocs.io/tutorial_intro.html#logging-into-the-server
 
 Argumentos requeridos para correr script:
 
-servername        servername
-user              Domain\\User
-password          password
+servername=servername
+
+user=Domain\\\User
+
+password=password
 
 correr script:
 
