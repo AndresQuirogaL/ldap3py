@@ -36,7 +36,7 @@ $ python ldap3_authentication.py servername='servername' user='Domain\\User' pas
 ~~~
 
 
-**Script 2**
+**Script 2 (Simple password)**
 
 Argumentos requeridos para correr script:
 
