@@ -81,6 +81,10 @@ servername = arguments_dict['servername']
 user = arguments_dict['user']
 password = arguments_dict['password']
 
+print("servername: {}".format(servername))
+print("user: {}".format(user))
+print("password: {}".format(password))
+
 # Authentication Script
 server = Server(servername, get_info=ALL)
 conn = Connection(server, user=user, password=password, authentication=NTLM)
